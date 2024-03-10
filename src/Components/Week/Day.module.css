@@ -1,0 +1,66 @@
+.itemsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  border: 1px solid #e0e0e0; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px; 
+  min-height: 600px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  overflow: hidden; 
+}
+  
+.item {
+  border: none; 
+  border-radius: 4px; 
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5; 
+  box-shadow: none; 
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-all; 
+  display: block;
+  width: calc(100% - 16px); 
+  box-sizing: border-box;
+  transition: background-color 0.3s; 
+}
+.item:hover {
+  background-color: #e8e8e8; 
+}
+
+  button {
+    margin-top: 10px;
+    align-self: start;
+  }
+  
+  .savedNote {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 16px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: pre-wrap; 
+    overflow: hidden; 
+    display: block; 
+    width: 100%; 
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-all; 
+  }
+  .dayHeader {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0; 
+    background-color: #fafafa;
+  }
+  
